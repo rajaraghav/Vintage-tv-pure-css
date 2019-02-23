@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "ti_logoso_tfbregular";
+    src: url("ti_logoso_tfb-webfont.woff2") format("woff2"), url("ti_logoso_tfb-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+canvas {
+    font-family: "ti_logoso_tfbregular";
+    font-size: 4rem;
+}
+.tv__frame {
+    position: relative;
+    border-radius: 0.5rem;
+    border: 2rem #4f2915 solid;
+}
+.tv__inner {
+    position: relative;
+    border-radius: 1rem;
+    border: 2rem #bbbcb6 solid;
+}
+.tv__screen {
+    position: relative;
+    border-radius: 1rem;
+    background: linear-gradient(to bottom right, #333, #555);
+    width: 370px;
+    height: 300px;
+}
+.dvd {
+    font-family: "ti_logoso_tfbregular";
+    font-size: 4rem;
+    color: #a1ee;
+    position: absolute;
+}

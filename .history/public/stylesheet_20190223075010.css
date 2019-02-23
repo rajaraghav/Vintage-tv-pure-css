@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "ti_logoso_tfbregular";
+    src: url("ti_logoso_tfb-webfont.woff2") format("woff2"), url("ti_logoso_tfb-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+}
+.dvd {
+    font-family: "ti_logoso_tfbregular";
+    font-size: 4rem;
+}
